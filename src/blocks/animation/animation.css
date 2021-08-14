@@ -1,0 +1,11 @@
+.animation {
+    margin: 0;
+    width: 764px;
+    height: 412px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

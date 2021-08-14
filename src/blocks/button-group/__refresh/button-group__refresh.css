@@ -1,0 +1,15 @@
+.button-group__refresh {
+    margin: 0 0 0 16px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../../images/refresh.svg');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #1A1B22;
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+}
