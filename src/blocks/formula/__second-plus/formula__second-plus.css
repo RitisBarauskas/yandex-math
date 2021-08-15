@@ -8,3 +8,17 @@
     background-repeat: no-repeat;
     display: none;
 }
+
+.formula__second-plus_show {
+    display: block;
+    animation: showPlus 1s linear forwards;
+}
+
+@keyframes showPlus {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

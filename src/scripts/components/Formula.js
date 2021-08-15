@@ -41,14 +41,14 @@ class Formula {
             this._secondX.classList.remove('formula__second-x_show');
             this._firstPlus.classList.remove('formula__first-plus_show');
             this._secondEqual.classList.remove('formula__second-equal_show');
-            this._thirdA.style.display = 'none';
-            this._secondY.style.display = 'none';
-            this._secondPlus.style.display = 'none';
-            this._secondB.style.display = 'none';
-            this._thirdX.style.display = 'none';
-            this._thirdPlus.style.display = 'none';
-            this._thirdB.style.display = 'none';
-            this._thirdY.style.display = 'none';
+            this._thirdA.classList.remove('formula__third-a_show');
+            this._secondY.classList.remove('formula__second-y_show');
+            this._secondPlus.classList.remove('formula__second-plus_show');
+            this._secondB.classList.remove('formula__second-b_show');
+            this._thirdX.classList.remove('formula__third-x_show');
+            this._thirdPlus.classList.remove('formula__third-plus_show');
+            this._thirdB.classList.remove('formula__third-b_show');
+            this._thirdY.classList.remove('formula__third-y_show');
         } else if (page === 2) {
             this._buttonBack.style.display = 'block';
             this._arrowAX.style.display = 'block';
@@ -67,16 +67,16 @@ class Formula {
         } else if (page === 4) {
             this._arrowAY.style.display = 'block';
             this._firstPoints.classList.add('formula__first-points_show');
-            this._thirdA.style.display = 'none';
-            this._secondY.style.display = 'none';
-            this._secondPlus.style.display = 'none';
-            this._secondPoints.style.display = 'none';
+            this._thirdA.classList.remove('formula__third-a_show');
+            this._secondY.classList.remove('formula__second-y_show');
+            this._secondPlus.classList.remove('formula__second-plus_show');
+            this._secondPoints.classList.remove('formula__second-points_show');
         } else if (page === 5) {
             this._firstPoints.classList.remove('formula__first-points_show');
-            this._thirdA.style.display = 'block';
-            this._secondY.style.display = 'block';
-            this._secondPlus.style.display = 'block';
-            this._secondPoints.style.display = 'block';
+            this._thirdA.classList.add('formula__third-a_show');
+            this._secondY.classList.add('formula__second-y_show');
+            this._secondPlus.classList.add('formula__second-plus_show');
+            this._secondPoints.classList.add('formula__second-points_show');
             this._arrowAY.style.display = 'block';
             this._arrowAX.style.display = 'block';
             this._arrowBX.style.display = 'none';
@@ -84,27 +84,27 @@ class Formula {
             this._arrowAY.style.display = 'none';
             this._arrowAX.style.display = 'none';
             this._arrowBX.style.display = 'block';
-            this._secondPoints.style.display = 'block';
-            this._secondB.style.display = 'none';
-            this._thirdX.style.display = 'none';
-            this._thirdPlus.style.display = 'none';
-            this._thirdPoints.style.display = 'none';
+            this._secondPoints.classList.add('formula__second-points_show');
+            this._secondB.classList.remove('formula__second-b_show');
+            this._thirdX.classList.remove('formula__third-x_show');
+            this._thirdPlus.classList.remove('formula__third-plus_show');
+            this._thirdPoints.classList.remove('formula__third-points_show');
         } else if (page === 7) {
-            this._secondPoints.style.display = 'none';
-            this._secondB.style.display = 'block';
-            this._thirdX.style.display = 'block';
-            this._thirdPlus.style.display = 'block';
-            this._thirdPoints.style.display = 'block';
+            this._secondPoints.classList.remove('formula__second-points_show');
+            this._secondB.classList.add('formula__second-b_show');
+            this._thirdX.classList.add('formula__third-x_show');
+            this._thirdPlus.classList.add('formula__third-plus_show');
+            this._thirdPoints.classList.add('formula__third-points_show');
             this._arrowBY.style.display = 'none';
         } else if (page === 8) {
             this._arrowBY.style.display = 'block';
-            this._thirdPoints.style.display = 'block';
+            this._thirdPoints.classList.add('formula__third-points_show');
         } else if (page === 9) {
             this._arrowBX.style.display = 'none';
             this._arrowBY.style.display = 'none';
-            this._thirdPoints.style.display = 'none';
-            this._thirdB.style.display = 'block';
-            this._thirdY.style.display = 'block';
+            this._thirdPoints.classList.remove('formula__third-points_show');
+            this._thirdB.classList.add('formula__third-b_show');
+            this._thirdY.classList.add('formula__third-y_show');
             this._buttonNext.style.display = 'none';
             this._buttonBack.style.display = 'none';
             this._buttonRefresh.style.display = 'block';

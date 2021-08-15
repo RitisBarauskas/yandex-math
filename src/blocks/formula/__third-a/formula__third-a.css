@@ -1,10 +1,25 @@
 .formula__third-a {
     position: absolute;
-    top: 107px;
-    left: 165px;
+    top: 39px;
+    left: 15px;
     background-image: url('../../../images/a.svg');
     width: 22px;
     height: 21px;
     background-repeat: no-repeat;
     display: none;
+}
+
+.formula__third-a_show {
+    display: block;
+    animation: showThirdA 1s linear forwards;
+}
+
+@keyframes showThirdA {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(150px, 68px);
+    }
 }
