@@ -2,4 +2,8 @@
     position: absolute;
     top: 95px;
     left: 368px;
+    background-image: url('../../../images/b.svg');
+    width: 17px;
+    height: 32px;
+    background-repeat: no-repeat;
 }

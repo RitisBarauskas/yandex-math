@@ -1,4 +1,8 @@
 .formula__ab-open-bracket {
     position: absolute;
     top: 25px;
+    background-image: url('../../../images/open-bracket.svg');
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 45px;
 }

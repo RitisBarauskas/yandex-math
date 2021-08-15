@@ -2,4 +2,8 @@
     position: absolute;
     top: -9px;
     left: 100px;
+    background-image: url('../../../images/arrow_by.svg');
+    width: 137px;
+    height: 27px;
+    background-repeat: no-repeat;
 }

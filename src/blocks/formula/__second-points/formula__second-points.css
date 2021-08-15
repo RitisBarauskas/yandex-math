@@ -2,4 +2,8 @@
     position: absolute;
     left: 270px;
     top: 129px;
+    background-image: url('../../../images/points.svg');
+    width: 33px;
+    height: 4px;
+    background-repeat: no-repeat;
 }
