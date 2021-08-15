@@ -37,6 +37,7 @@ class Formula {
             this._arrowAY.style.display = 'none';
             this._arrowBX.style.display = 'none';
             this._arrowBY.style.display = 'none';
+            this._secondA.classList.remove('formula__second-a_show-reverse');
             this._secondA.classList.remove('formula__second-a_show');
             this._secondX.classList.remove('formula__second-x_show');
             this._firstPlus.classList.remove('formula__first-plus_show');
@@ -53,12 +54,18 @@ class Formula {
             this._buttonBack.style.display = 'block';
             this._arrowAX.style.display = 'block';
             this._secondEqual.classList.remove('formula__second-equal_show');
-            this._secondA.classList.remove('formula__second-a_show');
+            if (this._secondA.classList.contains('formula__second-a_show')) {
+                this._secondA.classList.remove('formula__second-a_show');
+                this._secondA.classList.add('formula__second-a_show-reverse');
+            }
             this._secondX.classList.remove('formula__second-x_show');
             this._firstPlus.classList.remove('formula__first-plus_show');
             this._firstPoints.classList.remove('formula__first-points_show');
         } else if (page === 3) {
             this._secondEqual.classList.add('formula__second-equal_show');
+            if (this._secondA.classList.contains('formula__second-a_show-reverse')) {
+                this._secondA.classList.remove('formula__second-a_show-reverse');
+            }
             this._secondA.classList.add('formula__second-a_show');
             this._secondX.classList.add('formula__second-x_show');
             this._firstPlus.classList.add('formula__first-plus_show');
