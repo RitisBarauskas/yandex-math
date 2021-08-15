@@ -39,7 +39,7 @@
 @import url('../blocks/button-group/button-group.css');
 @import url('../blocks/button-group/__paginator/button-group__paginator.css');
 @import url('../blocks/button-group/__buttons/button-group__buttons.css');
-@import url('../blocks//button-group/__back/button-group__back.css');
+@import url('../blocks/button-group/__back/button-group__back.css');
 @import url('../blocks/button-group/__next/button-group__next.css');
 @import url('../blocks/button-group/__refresh/button-group__refresh.css');
 @import url('../blocks/footer/footer.css');

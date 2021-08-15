@@ -1,7 +1,7 @@
 .button-group__back {
     margin: 0 16px 0 0;
     padding: 0;
-    background-image: url('../../../../images/back.svg');
+    background-image: url('../../../images/back.svg');
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-position: center center;
