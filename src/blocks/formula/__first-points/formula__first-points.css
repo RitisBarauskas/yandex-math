@@ -8,3 +8,17 @@
     background-repeat: no-repeat;
     display: none;
 }
+
+.formula__first-points_show {
+    display: block;
+    animation: showPoints 1s linear forwards;
+}
+
+@keyframes showPoints {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

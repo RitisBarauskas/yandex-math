@@ -1,10 +1,25 @@
 .formula__second-a {
     position: absolute;
-    top: 107px;
-    left: 59px;
     background-image: url('../../../images/a.svg');
+    top: 39px;
+    left: 15px;
     width: 22px;
     height: 21px;
     background-repeat: no-repeat;
     display: none;
+}
+
+.formula__second-a_show {
+    display: block;
+    animation: showSecondA 1s linear forwards;
+}
+
+@keyframes showSecondA {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(44px, 68px);
+    }
 }

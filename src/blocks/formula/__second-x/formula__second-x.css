@@ -1,10 +1,25 @@
 .formula__second-x {
     position: absolute;
-    top: 107px;
-    left: 83px;
+    top: 39px;
+    left: 148px;
     background-image: url('../../../images/x.svg');
     width: 22px;
     height: 21px;
     background-repeat: no-repeat;
     display: none;
+}
+
+.formula__second-x_show {
+    display: block;
+    animation: showSecondX 1s linear forwards;
+}
+
+@keyframes showSecondX {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-65px, 68px);
+    }
 }
