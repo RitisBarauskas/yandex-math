@@ -6,11 +6,9 @@
     width: 22px;
     height: 30px;
     background-repeat: no-repeat;
-    display: none;
 }
 
 .formula__second-y_show {
-    display: block;
     animation: showSecondY 1s linear forwards;
 }
 
@@ -21,5 +19,20 @@
     100% {
         opacity: 1;
         transform: translate(-40px, 68px);
+    }
+}
+
+.formula__second-y_show-reverse {
+    animation: showSecondY-reverse 1s linear forwards;
+}
+
+@keyframes showSecondY-reverse {
+    0% {
+        opacity: 1;
+        top: 107px;
+        left: 188px;
+    }
+    100% {
+        opacity: 0;
     }
 }

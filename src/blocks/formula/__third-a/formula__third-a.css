@@ -6,11 +6,9 @@
     width: 22px;
     height: 21px;
     background-repeat: no-repeat;
-    display: none;
 }
 
 .formula__third-a_show {
-    display: block;
     animation: showThirdA 1s linear forwards;
 }
 
@@ -21,5 +19,20 @@
     100% {
         opacity: 1;
         transform: translate(150px, 68px);
+    }
+}
+
+.formula__third-a_show-reverse {
+    animation: showThirdA-reverse 1s linear forwards;
+}
+
+@keyframes showThirdA-reverse {
+    0% {
+        opacity: 1;
+        top: 107px;
+        left: 165px;
+    }
+    100% {
+        opacity: 0;
     }
 }
