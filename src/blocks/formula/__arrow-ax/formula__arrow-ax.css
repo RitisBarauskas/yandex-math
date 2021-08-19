@@ -3,8 +3,22 @@
     top: -9px;
     left: 30px;
     background-image: url('../../../images/arrow_ax.svg');
-    width: 126px;
+    width: 0px;
     height: 27px;
     background-repeat: no-repeat;
-    display: none;
+    background-size: cover;
+}
+
+.formula__arrow-ax_show {
+    animation: showArrowAX .5s linear forwards;
+}
+
+@keyframes showArrowAX {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 126px;
+    }
 }

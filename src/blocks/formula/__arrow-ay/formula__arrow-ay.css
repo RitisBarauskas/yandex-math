@@ -3,8 +3,36 @@
     top: -30px;
     left: 30px;
     background-image: url('../../../images/arrow_ay.svg');
-    width: 208px;
+    width: 0px;
     height: 48px;
     background-repeat: no-repeat;
-    display: none;
+    background-size: cover;
+}
+
+.formula__arrow-ay_show {
+    animation: showArrowAY .5s linear forwards;
+}
+
+@keyframes showArrowAY {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 208px;
+    }
+}
+
+.formula__arrow-ay_show-reverse {
+    animation: showArrowAY-reverse .5s linear forwards;
+}
+
+@keyframes showArrowAY-reverse {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 0px;
+    }
 }

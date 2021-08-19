@@ -3,8 +3,36 @@
     top: 5px;
     left: 100px;
     background-image: url('../../../images/arrow_bx.svg');
-    width: 56px;
+    width: 0px;
     height: 13px;
     background-repeat: no-repeat;
-    display: none;
+    background-size: cover;
+}
+
+.formula__arrow-bx_show {
+    animation: showArrowBX .5s linear forwards;
+}
+
+@keyframes showArrowBX {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 56px;
+    }
+}
+
+.formula__arrow-bx_show-reverse {
+    animation: showArrowBX-reverse .5s linear forwards;
+}
+
+@keyframes showArrowBX-reverse {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 0px;
+    }
 }
